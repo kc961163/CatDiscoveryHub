@@ -1,23 +1,39 @@
 /* src/components/CatDisplay/CatDisplay.css */
 .cat-display {
-    text-align: center;
-    margin: 1rem;
-  }
-  
-  .cat-display h2 {
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-size: 1.1rem;
-  }
-  
-  .cat-display img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cat-display p {
-    font-size: 0.9rem;
-    color: #555;
-  }
+  text-align: center;
+  margin: 1rem;
+  /* Ensure there is enough vertical space */
+  padding: 1rem;
+  /* Remove any height constraints if present */
+}
+
+.attribute-button {
+  background-color: #ddd;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  margin: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.attribute-button:hover {
+  background-color: #ccc;
+}
+
+.cat-display img {
+  width: 100%;
+  max-height: 80vh;       /* Limits image height to 80% of viewport height */
+  object-fit: contain;    /* Scales the image so the entire image fits in the container */
+  object-position: top;   /* Aligns the image to the top */
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cat-display p {
+  font-size: 0.9rem;
+  color: #555;
+}

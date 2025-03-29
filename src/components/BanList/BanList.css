@@ -1,0 +1,33 @@
+/* src/components/BanList/BanList.css */
+.ban-list-container {
+  background-color: #858383;
+  padding: 1rem;
+  width: 250px;
+}
+
+.ban-list-container h2 {
+  margin-top: 0;
+}
+
+.ban-type {
+  margin-bottom: 1rem;
+}
+
+.ban-type h4 {
+  margin: 0.5rem 0;
+}
+
+/* New style for banned attribute buttons */
+.ban-item-button {
+  background-color: #ccc;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ban-item-button:hover {
+  background-color: #bbb;
+}

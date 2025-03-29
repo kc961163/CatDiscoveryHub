@@ -1,0 +1,22 @@
+/* src/components/SeenList/SeenList.css */
+.seen-list-container {
+    background-color: #7a7777;
+    padding: 1rem;
+    width: 250px;
+  }
+  
+  .seen-list-container h2 {
+    margin-top: 0;
+  }
+  
+  .seen-item {
+    margin-bottom: 1rem;
+  }
+  
+  .seen-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 4px;
+  }
